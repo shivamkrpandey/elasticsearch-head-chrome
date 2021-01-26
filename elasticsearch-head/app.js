@@ -3811,7 +3811,7 @@
 
 			var token = this.el.find(".uiClusterConnect-token").val();;
 			if (token.length === 0) {
-				token = null;
+				token = "Basic Authentication";
 			}
 			var argstr = base_uri.substring(base_uri.indexOf("?") + 1, base_uri.length);
 			var args = argstr.split("&").reduce(function (r, p) {
