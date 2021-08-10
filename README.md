@@ -1,6 +1,8 @@
 # elasticsearch-head-chrome-bearer-auth
 Chrome Extension containing the ElasticSearch Head application which supports both bearer and basic authentication.
 
+### Note: Please provide a valid token otherwise popup comes for Basic credentials.
+
 ### Synopsis
 
 Chrome Extension containing the excellent [ElasticSearch Head](https://github.com/mobz/elasticsearch-head) application.
